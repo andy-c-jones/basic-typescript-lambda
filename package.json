@@ -1,0 +1,17 @@
+{
+  "name": "basic-typescript-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "create-node-project": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "tslint \"./**/*.ts\"",
+    "test": "karma start",
+    "precommit": "npm run lint && npm run test"
+  },
+  "author": "",
+  "license": "ISC"
+}
